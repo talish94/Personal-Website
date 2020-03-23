@@ -61,13 +61,13 @@ h1{
 }
 
 h2{
-	text-align: center;
+	text-align: right;
 	direction: rtl;
 	font-family: Tahoma, Geneva, sans-serif;
 
 }
 
-b{
+.spa ul li b{
 	font-weight: normal;
 	text-align: right;
 	direction: rtl;
