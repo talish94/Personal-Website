@@ -4,18 +4,22 @@
  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<div id="menu">
- <li><a href="#about">About Me</a></li>
- <li><a href="#photos">My Photos</a></li>
- <li><a href="#playlist">My Playlist</a></li>
- <li><a href="#like">Like</a></li>
- <li><a href="#qrcoder">QR code</a></li>
- <li><a href="#spa">Q&A</a></li>
- <li><a href="#contact">Contact Me</a></li>
-</div>
+<section style="background: #d35400; color: #fff;">
+ <h2>Blend</h2>
+ <nav class="blend">
+  <li><a href="#about">About Me</a></li>
+  <li><a href="#photos">My Photos</a></li>
+  <li><a href="#playlist">My Playlist</a></li>
+  <li><a href="#like">Like</a></li>
+  <li><a href="#qrcoder">QR code</a></li>
+  <li><a href="#spa">Q&A</a></li>
+  <li><a href="#contact">Contact Me</a></li>
+ </nav>
+</section>
+
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
-<p class="w3-myfont">Making the Web!</p>
+
 <section id="about" class="section">
  <br/>
  <br/>
@@ -53,19 +57,21 @@
  <br/>
  <br/>
  <br/>
- My Photos
+ <h1>My Photos</h1>
  <br/>
 
  <br/>
- <img src=src/HSPU.jpg width=300 height=300 />
- <img src=src/eingedi.jpg width=240 height=300 />
- <img src=src/crossfit.jpg width=300 height=300 />
- <img src=src/football.jpg width=360 height=300 />
- <img src=src/bartender.jpg width=340 height=300 />
- <img src=src/tennis.jpg width=300 height=300 />
- <img src=src/flowers.jpg width=260 height=300 />
- <img src=src/backSquat.jpg width=150 height=300 />
+ <img src=HSPU.jpg width=300 height=300 />
+ <img src=eingedi.jpg width=240 height=300 />
+ <img src=crossfit.jpg width=300 height=300 />
+ <img src=football.jpg width=360 height=300 />
+ <img src=bartender.jpg width=300 height=300 />
+ <img src=tennis.jpg width=300 height=300 />
+ <img src=flowers.jpg width=260 height=300 />
+ <img src=backSquat.jpg width=185 height=300 />
+
  <br/>
+
  <br/>
  <br/>
 </section>
@@ -78,10 +84,9 @@
  <br/>
  <br/>
  <br/>
- My Playlist
+ <h1>My Playlist</h1>
  <br/>
  <br/>
- <iframe  width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLW3u28VuDAHLBQrejV70zRa6sesxkPmgA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  <br/>
  <iframe  width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL-Mvpq4gxqGEEcj40x3kllZTASN1OOcvg
 " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -100,7 +105,7 @@
  <br/>
  <br/>
  <br/>
- give me a like
+ <h1>give me a like</h1>
  <br/>
  <br/>
  <iframe src="http://www.facebook.com/plugins/like.php?href= https://sise-web-development-environments.github.io/assignment1-talish94/&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80&amp" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
@@ -119,11 +124,10 @@
  <br/>
  <br/>
  <br/>
- scan my code
+ <h1>scan my code</h1>
  <br/>
  <br/>
  <img src="http://api.qrserver.com/v1/create-qr-code/?color=000000&amp;bgcolor=FFFFFF&amp;data=+https%3A%2F%2Fsise-web-development-environments.github.io%2Fassignment1-talish94%2F&amp;qzone=1&amp;margin=0&amp;size=400x400&amp;ecc=L" alt="qr code" />
- <img src=QR.jpg width=200 height=200 />
  <br/>
 </section>
 
@@ -136,19 +140,20 @@
  <br/>
  <br/>
  <br/>
- ans
+ <h1>ans</h1>
  <br/>
  <br/>
- שאלה 1:
+ <h2>שאלה 1:</h2>
  <br/>
+ <p>
  <ul>
   <li> ווב 1.0 כולל תוכן סטטי בלבד (קריאה בלבד), בווב 2.0 גם המשתמש כבר יכול לייצר תוכן (קריאה-כתיבה), ובווב 3.0 כבר נעשה שימוש בבינה מלאכותית בכדי לספק חוויית ווב אישית (שימוש במערכות נתונים מקושרות).</li>
   <li> בווב 1.0 מנועי חיפוש מאחזרים תוכן מאקרו - מהיר אך לא מדוייק, ובעל היקף גדול מדי. בווב 2.0 מאחזרים תגיות עם תוכן מיקרו - תהליך ידני ולא מקיף כלל. בווב 3.0 מאחזרים טקסטים עם תוכן מיקרו (אוטומטית) מה שמסייע בקבלת מידע יותר מדויק.</li>
   <li> בווב 1.0 היו דפי טקסט מעוצבים, לעיתים מבוססי פלאש. בווב 2.0 כבר נעשה שימוש בדפים דו כיווניים, פודקאסטים ופרסום אישי. בווב 3.0 פותחו פורטלים תלת מימדיים, פרופילים, סביבות וירטואליות, חינוך ועסקים.</li>
  </ul>
+ </p>
  <br/>
- <br/>
- שאלה 2:
+ <h2>שאלה 2:</h2>
  <br/>
 
  <br/>
@@ -173,11 +178,11 @@
  <br/>
  <br/>
  <br/>
- contact me
+ <h1>contact me</h1>
  <br/>
  <br/>
 
- <h2>Send e-mail to talischvartz@gmail.com:</h2>
+ <h3>Send e-mail to talischvartz@gmail.com:</h3>
 
  <form action="mailto:talischvartz@gmail.com" method="post" enctype="text/plain">
   E-mail:<br>
@@ -221,3 +226,6 @@
  $(document).scroll(function() {
   $('#menu').toggle($(this).scrollTop()>1000)
  });​
+</script>
+</body>
+</html>
