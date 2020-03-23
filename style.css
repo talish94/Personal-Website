@@ -67,8 +67,8 @@ h2{
 
 }
 
-.spa ul li b{
-	font-weight: normal;
+.spa ul li b
+{
 	text-align: right;
 	direction: rtl;
 	font-family: Tahoma, Geneva, sans-serif;
