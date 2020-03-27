@@ -86,16 +86,16 @@ p2{
 
 }
 
-.like{
-	text-align: center;
-}
-
-
 
 p3{
     text-align: center;
     direction: rtl;
     font-family: Tahoma, Geneva, sans-serif;
 }
+
+.like{
+	text-align: center;
+}
+
 
 
