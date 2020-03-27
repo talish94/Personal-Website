@@ -74,9 +74,14 @@ p2{
     text-align: right;
     direction: rtl;
     font-family: Tahoma, Geneva, sans-serif;
-
+    font-weight: normal;
 }
 
+p3{
+    text-align: center;
+    direction: rtl;
+    font-family: Tahoma, Geneva, sans-serif;
+}
 .spa ul li b
 {
 	text-align: right;
@@ -84,13 +89,6 @@ p2{
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 15px;
 
-}
-
-
-p3{
-    text-align: center;
-    direction: rtl;
-    font-family: Tahoma, Geneva, sans-serif;
 }
 
 .like{
