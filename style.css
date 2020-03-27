@@ -83,7 +83,11 @@ h2{
 	text-align: center;
 }
 
-
+p2{
+    text-align: right;
+    direction: rtl;
+    font-family: Tahoma, Geneva, sans-serif;
+}
 
 
 
